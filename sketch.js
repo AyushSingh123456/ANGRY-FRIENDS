@@ -49,7 +49,7 @@ function setup(){
 function draw(){
     if(backgroundImg)
         background("black");
-    
+    fill("black")
         noStroke();
         textSize(35)
         fill("white")

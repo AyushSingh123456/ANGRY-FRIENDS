@@ -47,7 +47,7 @@ function setup(){
 }
 
 function draw(){
-    if(backgroundImg)
+    if(backgroundImg==undefined)
         background("black");
     
         noStroke();
